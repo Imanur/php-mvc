@@ -1,0 +1,11 @@
+<phpunit colors="true" stopOnError="true" verbose="true">
+    <testsuites>
+        <testsuite name="regex">
+            <file>tests/RegexTest.php</file>
+        </testsuite>
+        <testsuite name="all">
+            <directory>tests</directory>
+        </testsuite>
+    </testsuites>         
+</phpunit>
+
